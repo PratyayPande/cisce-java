@@ -11,6 +11,6 @@ git --version
 If an error message is reported, then please follow the instructions to 
 [install and configure git](https://github.com/PratyayPande/cisce-java/blob/master/LOAD_REPO.md#install-and-configure-git).
 
-If you have git installed, follow the instructions [here](https://github.com/PratyayPande/cisce-java/blob/master/LOAD_REPO.md#2-configuring-the-git-installation) to configure git.
+If the git version details, then follow the instructions [here](https://github.com/PratyayPande/cisce-java/blob/master/LOAD_REPO.md#2-configuring-the-git-installation) to configure git.
 
-If you have git pre-instlled and configured then you can directly clone the repository to your local system.
+If you have git pre-instlled and configured then you can directly [clone the repository to your local system](https://github.com/PratyayPande/cisce-java/blob/master/LOAD_REPO.md#3-cloning-the-repository).
