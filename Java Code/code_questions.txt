@@ -1,0 +1,7 @@
+Problem Statement 1:
+
+Create a Java program to accept an infix expression and convert it to postfix. Assume that the operands are single digit numerals and the expression input is without braces.
+Feel free to use as many classes and constructors as you like.
+
+Solution Files: InfixApp.java and InfixAppToPost.java
+Main method: 'void main()' from InfixApp.java
