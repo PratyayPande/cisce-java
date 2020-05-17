@@ -7,4 +7,4 @@ You need to have git preinstalled on your computer. You can verify the git insta
 `git --version`
 
 If an error message is reported, then please follow the instructions to 
-[install and configure](https://github.com/PratyayPande/cisce-java/blob/master/INSTALL_AND_CONFIG.md#install-and-configure-git) git.
+[install and configure git](https://github.com/PratyayPande/cisce-java/blob/master/INSTALL_AND_CONFIG.md#install-and-configure-git).
