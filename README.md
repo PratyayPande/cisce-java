@@ -6,4 +6,5 @@ All code in this repository is free and is available for further contributions f
 You need to have git preinstalled on your computer. You can verify the git installation by opening a terminal/command prompt and executing: 
 `git --version`
 
-If you have git installed, the version details will be displayed. Then you can skip to the configuration section.
+If an error message is reported, then please follow the instructions to 
+[install and configure](https://github.com/PratyayPande/cisce-java/blob/master/INSTALL_AND_CONFIG.md#install-and-configure-git) git.
