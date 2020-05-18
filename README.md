@@ -8,7 +8,7 @@ If you want to contribute code to this repository please follow our contribution
 #### Downloading the repository
 *Option 1:* If you just need the code files without being linked to github, then you can go to the *Clone or Download* option at the top of this page and click on *Download ZIP*.
 
-*Option 2:* But if you want to be linked to this repository and be updated when the repository receives code improvements, updates, etc. You can follow the steps below. We recommend you to opt for option 2 since you can always easily update the repository using git.
+*Option 2:* If you want to download the files and be linked to this repository and be able to update your files when the repository receives code improvements, updates, etc. You can follow the steps below. We recommend you to opt for option 2 since you can always easily update the repository using git.
 
 You need to have git preinstalled on your computer. You can verify the git installation by opening a terminal/command prompt and executing: 
 ```
