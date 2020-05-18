@@ -17,9 +17,10 @@ If the git version details, then follow the instructions [here](https://github.c
 
 If you have git pre-instlled and configured then you can directly [fork/clone the repository to your local system](https://github.com/PratyayPande/cisce-java/blob/master/LOAD_REPO.md#3-forking-or-cloning-the-repository).
 
-
 #### How to contribute to this repository
 
-All code in this repository is free and is available for further contributions from everyone. If you some code that you want to contribute or edit some existing code to a better version of it, you are always welcome. Create a pull request from your fork that contains your code so that it can be reviewed and be added to the repo.
+All code in this repository is free and is available for further contributions from everyone. If you some code that you want to contribute or edit some existing code to a better version of it, you are always welcome. 
+
+After you complete changing the code in your fork of the repository, create a pull request from your fork so that it can be reviewed and be added to the repo.
 
 Look up on [how to create pull requests from a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork) in order to give your code to be added to this repository
