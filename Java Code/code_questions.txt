@@ -5,3 +5,6 @@ Feel free to use as many classes and constructors as you like.
 
 Solution Files: InfixApp.java and InfixAppToPost.java
 Main method: 'void main()' from InfixApp.java
+Concepts used:
+1. loops
+2. Classes and objects
