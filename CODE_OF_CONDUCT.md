@@ -74,3 +74,21 @@ available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.ht
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
+
+## Contributing to this repository
+
+This repository is available for code contributions form everyone to help it expand and evolve. If you have some code that you want to share with people, you must send them to us and if we understand how awesome your code is, we will put it up here.
+
+The default branch in git is set to the `master` branch. To contribute you need to create a branch of your own and start a new pull request. That way, you can submit your code along with the changes you made and we can view it and add it to the repository.
+
+Please follow the steps below if you did not understand the previous paragraph:
+
+**Step 1:** Create a new branch of the github repository.
+
+Open command prompt or terminal and go inside the `cisce-java` folder. Then you need to get git to create a new branch of your own. The following command will create a new branch for you. Rename NEW_BRANCH as you wish:
+```
+git branch NEW_BRANCH
+```
+Eg: `git branch toast-bread`
+
+Check out of `master` and switch to
