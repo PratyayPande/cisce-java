@@ -41,7 +41,16 @@ git config --global user.name "YOUR_GITHUB_USER_NAME"
 git config --global user.email "YOUR_USER_EMAIL"
 ```
 
-### 3. Cloning the repository
+### 3. Forking or Cloning the repository
+In the long run, it is recommended that you fork this repository so that you can also make changes to this repository.
+
+Wile being logged into you github account, open the github page of this repository at
+```
+https://github.com/PratyayPande/cisce-java
+```
+On the above right corner of the page, click on the **Fork** option. This will add a copy of this repository to your github account and a new webpage will open showing this repository to be in your account
+
+
 In your terminal/command prompt, navigate to the location where you want to save the downloaded repository and execute the following line of commands:
 ```
 git clone "https://github.com/PratyayPande/cisce-java"
