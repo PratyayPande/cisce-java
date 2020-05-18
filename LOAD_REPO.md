@@ -11,7 +11,7 @@ If you have git installed but not configured git, then skip to the Configuration
 ```
 to install brew.
 
-**Step 2:** Install git: `brew install git`
+**Step 2:** Install git: `brew install git`. This will install git in your system.
 
 **Step 3:** Verify installation: `git --version`
 
