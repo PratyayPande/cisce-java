@@ -44,7 +44,7 @@ git config --global user.email "YOUR_USER_EMAIL"
 ### 3. Forking or Cloning the repository
 In the long run, it is recommended that you fork this repository so that you can also make changes to this repository.
 
-Wile being logged into you github account, open the github page of this repository at
+While being logged into you github account, open the github page of this repository at
 ```
 https://github.com/PratyayPande/cisce-java
 ```
