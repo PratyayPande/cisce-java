@@ -1,7 +1,7 @@
 Binary Tree (0.0.1)
 
-An user friendly command line interface for the implementation of a binary tree to store integer values.
-We currently have functions to insert nodes and display the tree.
+An user friendly command line interface for the implementation of a binary tree
+to store integer values. We currently have functions to insert nodes and display the tree.
 If you want to add more functions to the existing code, you are always welcome.
 Just look up the github page for more information:
 
