@@ -1,0 +1,17 @@
+package Assistant;
+public class CheckPrime//declaring class
+{//beginning of class
+    public boolean isPrime(int num)
+    {//beginning of method
+        int i;
+        boolean b = true;//declaring boolean variable
+        for(i=2;i<num;i++)
+        {//beginning of for-loop
+            if(num%i == 0)//divisibility check
+            b = false;
+        }//end of for-loop
+        if(num == 1)
+        b = false;
+        return b;//returning the decision
+    }//end of method
+}//end of class
