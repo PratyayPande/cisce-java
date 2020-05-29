@@ -1,6 +1,5 @@
 // infix.java
 // converts infix arithmetic expressions to postfix
-import java.io.*;
 class StackX//declaring the class
 {//beginning of class block
     private int maxSize;

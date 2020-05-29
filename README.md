@@ -1,6 +1,13 @@
 ## A minimalist Java code repository for CISCE students
 This is a code storage repository for students looking forward to coding in Java for as part of the school curriculum/activities. Created and maintained by students who have graduated from school, there are some programs that former students have written in class and in their examinations. The objective of this repository is just to maintain a warehouse of programs for students to learn and practice.
 
+### Contents
+
+* How to get the repository
+* How to contribute to the repository
+
+
+
 #### How to get the repository
 *Option 1:* **Download ZIP File** If you just need the code files without being linked to github, then you can go to the *Clone or Download* option at the top of this page and click on *Download ZIP*.
 

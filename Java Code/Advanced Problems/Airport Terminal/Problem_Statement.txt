@@ -1,0 +1,23 @@
+PROBLEM: Airline Service
+
+GIVEN INFORMATION:
+
+Assume that you are in charge of an airline with flights connecting various terminals.The terminals that your 
+airline has flights to and from are given the the form of a String array containing the 3 letter codes of the flight terminals.
+
+Input 1: ["BOM","DEL","CCU", ...]
+
+You are given all the flights that your airline currently flies in the form of a 2D String array, in which the
+first column contains the Departure terminal and the second column contains the Arrival terminal.
+
+Input 2: {{"BOM","DEL"},{"DEL","CCU"}, ... }
+
+Finally, you are then given the name of one terminal. 
+
+Input 3: "CCU"
+
+WHAT TO CALCULATE:
+
+Suppose you as an airline want to encourage travelling and want to enable your passengers to be able to experience all the terminals that you have access to. 
+Your job is to find the shortest number of flights that one will need to take to cover every terminal the airline has access to.
+

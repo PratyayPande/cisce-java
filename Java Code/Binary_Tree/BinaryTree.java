@@ -1,7 +1,7 @@
-import java.io.*;
+
 public class BinaryTree
 {
-    private BinaryTree root, lastnode,  currentnode;
+    private BinaryTree root,  currentnode;
     private BinaryTree left, right, up;//pointers to the left and right children
     private boolean root_exists;
     private String current_path;
@@ -38,10 +38,7 @@ public class BinaryTree
             for(int i=0;i<indent;i++)
                 System.out.print(" ");
             //if(ob != root)
-            //    indent += 7;
-
-            String str = "";
-            
+            //    indent += 7;            
             System.out.print("");
             
             System.out.print(": R -> ");
@@ -52,13 +49,12 @@ public class BinaryTree
         else
             System.out.print("NULL");
     }
-    private void node_navigator(String str)// navigate through the nodes in the tree the same way we navigate through files using cmd or terminal
-    {
+    private void node_navigator(String str)
+    { // navigate through the nodes in the tree the same way we navigate through files using cmd or terminal
         str = str.trim();
         String[] inp = str.split("/");
         int i = str.indexOf(" ");
         String files = inp[0];
-        int last = i+1;
         BinaryTree bck = currentnode;
         for(i = 0;i<inp.length;i++)
         {
@@ -80,7 +76,6 @@ public class BinaryTree
                     System.out.println("\nError(s) found! \n\tAborting Operation. Node switch NOT successful \n\tReturning to original node.");
                     currentnode = bck;
                 }
-                last = i+1;
             }
             catch(NullPointerException ob1)
             {
@@ -144,6 +139,10 @@ public class BinaryTree
         currentnode = root;
         updateCurrentPath();
     }
+    public boolean syntaxCheck(String s)
+    {
+        
+    }
     public void command_center(String str)
     {
         str = str.trim() + " ";
@@ -166,7 +165,7 @@ public class BinaryTree
                 {
                     for(i=0;i<fls.length;i++)
                     {
-                        if(fls[i].equals("l")||fls.equals("r"))
+                        if(fls[i].equals("l")||fls[i].equals("r"))
                             direction = (fls[i].equals("l"));
                         if(fls[i].equals("ow"))
                             overwrite = true;

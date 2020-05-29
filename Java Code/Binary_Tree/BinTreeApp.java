@@ -17,7 +17,10 @@ public class BinTreeApp
             if(!inp.equals("exit"))
                 ob.command_center(inp);
             else
+            {
+                System.out.println("Exiting Binary Tree. Thank You");
                 stayInTree = false;
+            }
             //System.out.println("");
         }
     }
