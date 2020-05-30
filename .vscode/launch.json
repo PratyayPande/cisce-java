@@ -8,6 +8,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - BinTreeApp",
             "request": "launch",
+            "mainClass": "Binary_Tree.BinTreeApp",
+            "projectName": "cisce-java_a2dc4439"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BinTreeApp",
+            "request": "launch",
             "mainClass": "BinTreeApp",
             "projectName": "cisce-java_a2dc4439"
         }
