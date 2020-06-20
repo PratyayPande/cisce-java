@@ -64,3 +64,7 @@ Concepts used:
 1. Algorithms
 2. String Handling
 3. Loops
+
+## Problem Statement 5:
+
+Imagine you have a robot that can move only right and down in a 2D-grid. You have to find the number of possible ways to do this.

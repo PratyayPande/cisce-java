@@ -1,10 +1,9 @@
 import java.io.*;
-import java.util.*;
+
 // code to remove the repeating nodes in a linked list
-public class link_remove extends Link
+public class link_remove
 {
-    Link first;
-    
+    Link first; 
     public static void main(String[] args) throws Exception
     {
         InputStreamReader input = new InputStreamReader(System.in);
@@ -33,13 +32,13 @@ public class link_remove extends Link
     }
     void removeDup()
     {
-        for(LinkedList i=first;i!=null;i=i.next)
+        for(Link i=first;i!=null;i=i.next)
         {
-            for(LinkedList j=i;j.next!= null)
+            for(Link j=i;j.next!= null;j=j.next)
             {
-                if(i.getData() == j.next.getData())
+                if(i.nodeData() == j.next.nodeData())
                 {
-                    j.next.getData() = 0;
+                    //j.next.nodeData() = 0;
                     j.next = j.next.next;
                 }
             }
@@ -54,22 +53,31 @@ public class link_remove extends Link
     void displayList()
     {
         System.out.print("NULL");
-        for(LinkedList i=first;i!=null;i=i.next)
+        for(Link i=first;i != null;i=i.next)
         {
-            System.out.print(" <- " + i.getData());
+            System.out.print(" <- " + i.nodeData());
         }
     }
     boolean checkPresence(Link testnode)
     {
-        for(Link ob = first;ob.next!=testnode)
+        boolean k = false;
+        loopID : for(Link ob = testnode;ob.next != null;ob = ob.next)
+        {
+            if(ob == testnode)
+            {
+                k = true;
+                break loopID;
+            }
+        }
+        return k;
     }
-    int calSize()
+    /*int calSize()
     {
         
-    }
+    }*/
     void delCircular()
     {
-        HashMap<Link,Integer> ob = new HashMap<>();
+        //HashMap<Link,Integer> ob = new HashMap<>();
         Link ob = first;
         boolean repeats=false;
         while(!repeats)
@@ -77,7 +85,7 @@ public class link_remove extends Link
             for(Link testnode=first;testnode != ob && !repeats;testnode=testnode.next)
             {
                 if(testnode == ob.next)
-                    repeats = 
+                    repeats = true;
             }
             
 
