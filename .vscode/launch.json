@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CheckAnagrams",
+            "request": "launch",
+            "mainClass": "CheckAnagrams",
+            "projectName": "cisce-java_a2dc4439"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - BinTreeApp",
             "request": "launch",
             "mainClass": "Binary_Tree.BinTreeApp",

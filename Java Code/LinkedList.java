@@ -38,12 +38,25 @@ class LinkedList// declaring of class
             System.out.print("{" + ob.data + "} ");
         }
     }
-    void deleteNextNode(Link ob)
+    void deleteNextNode(Link delnode)
     {
-        if(ob != first)
-            ob.next = ob.next.next
-    }
+        /* find the node just previous to the node to be deleted during the traversal of the list
+         * prevnode.next = ob.next;
+         * ob.next = null
+         */
+        Link ob;
+        for(ob = first;ob.next != delnode;ob = ob.next){}
+        if(ob == first)
+            delete();
+        else
+        {
+            ob.next = delnode.next;
+            delnode.next = null;
+        }
+    }// end of main methodthod
 }// end of class
 
-
+// enter the nnumber of elements to be added to the string 
+// i also love vim very much
+// i want to install vim-plug and all the other supporting softwares for vim that i have for neovim
 
