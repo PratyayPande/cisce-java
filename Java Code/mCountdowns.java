@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 class mCountdowns
 {
     public static void main(String[] srgs)throws IOException
